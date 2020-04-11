@@ -9,12 +9,18 @@ class SkillsSelection extends React.Component{
   }
 
   render() {
+    const items = [{id:'java',value:'Java'},{id:'c++',value:'C++'},{id:'python',value:'Python'},{id:'html/css/js',value:'Html/Css/Javascript'}];
     return (
       <select name="grade" multiple={true} value={this.props.skills} onChange={this.handleOptionChange}>
-        <option value="java">Java</option>
-        <option value="c++">C++</option>
-        <option value="python">Python</option>
-        <option value="html/css/js">Html/Css/Javascript</option>
+        {items.map((item) => (
+          <option
+            key={item.id}
+            value={item.id}
+          >
+            {item.value}
+          </option>
+        ))}
+
       </select>
     )
   }

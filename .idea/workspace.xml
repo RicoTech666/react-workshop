@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b1ddcf-a73a-427e-b83d-149602c3de88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/GenderSelection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/GradeSelection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SkillsSelection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GenderSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GenderSelection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SkillsSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsSelection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,10 @@
       <updated>1584841821407</updated>
       <workItem from="1584841825549" duration="614000" />
       <workItem from="1585387721186" duration="5479000" />
-      <workItem from="1585972796907" duration="5797000" />
+      <workItem from="1585972796907" duration="6044000" />
+      <workItem from="1585998177981" duration="59000" />
+      <workItem from="1585999625227" duration="640000" />
+      <workItem from="1586417785603" duration="2733000" />
     </task>
     <servers />
   </component>
@@ -88,5 +89,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#JavaScript/0.0.1680.1050@0.0.1680.1050" timestamp="1585389379039" />
+    <state x="100" y="82" width="1480" height="902" key="DiffContextDialog" timestamp="1586614714715">
+      <screen x="0" y="23" width="1680" height="990" />
+    </state>
+    <state x="100" y="82" width="1480" height="902" key="DiffContextDialog/0.23.1680.990@0.23.1680.990" timestamp="1586614714715" />
+    <state x="744" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1585998216438">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="744" y="362" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585998216438" />
   </component>
 </project>
