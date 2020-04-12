@@ -7,10 +7,13 @@ class GradeSelection extends React.Component{
 
   render() {
     return (
-        <select name="grade" value={this.props.grade} onChange={this.handleOptionChange}>
+     <div>
+      <label htmlFor="grade">Select Your Grade: </label>
+      <select name="grade" id="grade" value={this.props.grade} onChange={this.handleOptionChange}>
           <option value="junior">Junior</option>
           <option value="senior">Senior</option>
         </select>
+     </div>
     )
   }
 }

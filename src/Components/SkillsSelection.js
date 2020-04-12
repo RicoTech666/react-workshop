@@ -11,18 +11,21 @@ class SkillsSelection extends React.Component{
   render() {
     const items = [{id:'java',value:'Java'},{id:'c++',value:'C++'},{id:'python',value:'Python'},{id:'html/css/js',value:'Html/Css/Javascript'}];
     return (
-      <select name="grade" multiple={true} value={this.props.skills} onChange={this.handleOptionChange}>
-        {items.map((item) => (
-          <option
-            key={item.id}
-            value={item.id}
-          >
-            {item.value}
-          </option>
+      <div>
+        <label htmlFor="skills">Select Your Skills: </label>
+        <select name="skills" id="skills" multiple={true} value={this.props.skills} onChange={this.handleOptionChange}>
+          {items.map((item) => (
+            <option
+              key={item.id}
+              value={item.id}
+            >
+              {item.value}
+            </option>
         ))}
 
       </select>
-    )
+    </div>
+  )
   }
 }
 
