@@ -7,7 +7,7 @@ class SubmitButton extends React.Component{
   }
   render() {
     return (
-      <input type="submit" onClick={this.handleSubmit}/>
+      <input type="submit" onClick={this.handleSubmit} disabled={this.props.isDisabledToSubmit}/>
     )
   }
 }
